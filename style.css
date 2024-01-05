@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.components {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: x-large;
+    padding: 10px;
+}
+
+* {
+    background-color: antiquewhite;
+}
+
+.minus,
+.plus,
+.number {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: bisque;
+} 
+
+.minus:hover,
+.plus:hover,
+.number:hover {
+    background-color: burlywood;
+}
+
+/* Adjust the margin-right for the image */
+.components img {
+    height: 200px; /* Maintain the aspect ratio of the image */
+    margin-right: 20px; /* Adjust the margin as needed */
+    order: -1; /* Set the order to -1 to move the image to the left */
+}
