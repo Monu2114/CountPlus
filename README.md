@@ -1,5 +1,6 @@
-# CountPlus - Simple Plus-Minus Counter App
+# CountPlus - Aesthetic Simple Plus-Minus Counter App
 
+It is just a simple Responsive Javascript app but very aesthetic :))
 Tech Used:
 * HTML
 * CSS
